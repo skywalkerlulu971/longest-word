@@ -2,7 +2,9 @@
 # pylint: disable=too-few-public-methods
 import random
 import string
+
 import requests
+
 
 
 class Game:
@@ -16,6 +18,7 @@ class Game:
         # [...]
 
         return self.__check_dictionary(word)
+
 
 
     @staticmethod
